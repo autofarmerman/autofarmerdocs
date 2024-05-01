@@ -14,7 +14,6 @@ Upon your purchase of the product, you will be sent a one-time link where you ca
 ![image](https://github.com/autofarmerman/autofarmerdocs/assets/168534703/70ccb49a-6a5a-42d8-885f-063f89d15da8)
 
 
-
 # Setting up your autofarmer folder
 1. Navigate to the directory where you have Python installed. This is usually located in some place like: `C:\Users\your_device_name\AppData\Local\Programs\Python\Python311`
 2. Create a new folder in this directory. Feel free to name it whatever you want - something like `Autofarmer` works just fine. 
@@ -22,7 +21,9 @@ Upon your purchase of the product, you will be sent a one-time link where you ca
 
 This is what the contents of your new folder should look like:
 
-![image](https://github.com/autofarmerman/autofarmerdocs/assets/168534703/32f638a8-2e4d-4069-817f-183c892ad4b1)
+![image](https://github.com/autofarmerman/autofarmerdocs/assets/168534703/468f2d78-ff60-46ec-9389-641a62d28364)
+
+Run the `device_compatibility.py` file, and copy the output of the file. Send this output to me.
 
 # Download required modules
 1. Stay in the directory. Right-clicking will give you many options - choose `Open in Terminal`
@@ -50,7 +51,7 @@ A series of installations will begin - don't interrupt this process, and wait a 
 
 # Customizing your autofarmer
 To customize your autofarmer, you can modify the contents in the `settings.json` file. The contents are split into four sections:
-1. Authorization: enter your license key in here (received on purchase)
+1. Authorization: enter your license key in here (received after you send the output of the `device_compatibility.py` file to me)
 2. User customization: enter your account's statistics such as travel speed, what kingdom you want to farm in, etc 
 3. Bonus features: choose whether you want to activate bonus features such as gift collecting, and humanlike farming algorithms. (0 represents no, and 1 represents yes)
 4. Lag delays: adjust your lag settings based on your PC's performance - each number is represented in seconds (s)
